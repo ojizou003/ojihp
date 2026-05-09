@@ -142,6 +142,17 @@ a {
     cursor: none;
 }
 
+.btn2 {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    border-radius: 50px;
+    transition: var(--transition);
+    cursor: none;
+}
+
 .btn-primary {
     background-color: var(--accent-color);
     color: var(--bg-color);
@@ -272,7 +283,7 @@ a {
 .stat-label {
     color: var(--text-muted);
     font-size: 0.9rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 0.1em;
 }
 
