@@ -474,4 +474,18 @@ footer {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    /* Disable custom cursor on mobile */
+    body {
+        cursor: auto;
+    }
+
+    .btn, .btn2 {
+        cursor: pointer;
+    }
+
+    .cursor-dot,
+    .cursor-outline {
+        display: none !important;
+    }
 }
